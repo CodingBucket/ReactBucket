@@ -1,0 +1,4 @@
+$ npm install -g create-react-app@1.5.2
+
+$ npx create-react-app project-name
+$ npm start 
