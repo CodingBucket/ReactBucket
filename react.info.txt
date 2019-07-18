@@ -2,3 +2,8 @@ $ npm install -g create-react-app@1.5.2
 
 $ npx create-react-app project-name
 $ npm start 
+
+
+- ES7 React 
+- rce (to create basic class component)
+- rconst (to create constractor)
