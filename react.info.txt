@@ -6,4 +6,11 @@ $ npm start
 
 - ES7 React 
 - rce (to create basic class component)
+- rfce (to create functional component)
 - rconst (to create constractor)
+
+
+https://www.youtube.com/watch?v=m_u6P5k0vP0
+
+Best React tutorial in Bangla
+https://www.youtube.com/watch?v=zdj4g4kKuUY&list=PLoIhQz0o_Qbt64TqHm4lM0RjM9lRunoMN
