@@ -9,11 +9,17 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Style from './components/Style';
+import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
+import LifecycleB from './components/LifecycleB';
 
 function App() {
   return (
     <div className="App">
-      <Style/>
+      {/* <LifecycleB/> */}
+      <LifecycleA/>
+      {/* <Form /> */}
+      {/* <Style/> */}
       {/* <NameList/> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent/> */}

@@ -1,9 +1,10 @@
 import React from 'react'
+import './style.css'
 
 function Style() {
     return (
         <div>
-            <h1>CSS</h1>
+            <h1 className='primary'>CSS</h1>
         </div>
     )
 }
