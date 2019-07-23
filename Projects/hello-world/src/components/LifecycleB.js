@@ -19,10 +19,33 @@ class LifecycleB extends Component {
         console.log('LifecycleB componentDidMount')
     }
 
+    shouldComponentUpdate() {
+        console.log('LifecycleB shouldComponentUpdate')
+        return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps, prevState){
+        console.log('LifecycleB getSnapshotBeforeUpdate')
+        return null;
+    }
+
+    componentDidMount() {
+        console.log('LifecycleB componentDidMount')
+    }
+
+    changeState = () => {
+        this.setState({
+            name: 'State changed'
+        })
+    }
+
     render() {
         console.log('LifecycleB render')
         return (
-            <div>LifecycleB</div>
+            <div>
+                <div>LifecycleB</div>
+                <button onClick={this.changeState}>Change State</button>
+            </div>
         )
     }
 }
