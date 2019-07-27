@@ -4,8 +4,9 @@ $ npx create-react-app project-name
 $ npm start 
 
 
-- ES7 React 
+# ES7 React (VS code extention) 
 - rce (to create basic class component)
+- rpce (to create pure class component)
 - rfce (to create functional component)
 - rconst (to create constractor)
 
