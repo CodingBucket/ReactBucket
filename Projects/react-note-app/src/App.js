@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/create" component={NoteForm} />
+          <Route exact path="/update/:id" component={NoteForm} />
         </Switch>
       </BrowserRouter>
     </React.Fragment>
