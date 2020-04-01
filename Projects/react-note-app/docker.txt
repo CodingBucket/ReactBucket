@@ -1,0 +1,13 @@
+- docker version
+
+- docker container ls -a
+
+- docker rm container-name -f
+
+- docker image ls
+
+- docker build --tag notes-image .
+
+- docker run --publish 8000:8080 --detach --name notes-container notes-image
+
+- docker rm --force notes-container
