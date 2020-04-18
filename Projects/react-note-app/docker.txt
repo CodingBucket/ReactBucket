@@ -11,3 +11,5 @@
 - docker run --publish 8000:8080 --detach --name notes-container notes-image
 
 - docker rm --force notes-container
+
+- docker-compose up -d
